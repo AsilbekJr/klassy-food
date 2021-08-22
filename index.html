@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-ctr">
+        <div class="logo">
+          <img
+            src="/img/—Pngtree—cooking and kitchen icon_4032554.png"
+            alt=""
+          />
+        </div>
+        <div class="logo-text">
+          <h2 class="klassy-text">Klassy</h2>
+          <h5>since 1990</h5>
+        </div>
+      </div>
+      <ul class="nav-lists">
+        <li class="nav-list active"><a href="#main">Home</a></li>
+        <li class="nav-list"><a href="#about">About</a></li>
+        <li class="nav-list"><a href="#menu">Menu</a></li>
+        <li class="nav-list"><a href="#chefs">Chefs</a></li>
+        <ul class="drop-cnt">
+          <li class="nav-list drob-li">
+            <a href="#features">Features <i class="fas fa-chevron-down"></i></a>
+          </li>
+          <ul class="drop-menu">
+            <li><a href="#features">Online pay </a></li>
+            <li><a href="#features">Delivery </a></li>
+            <li><a href="#features">Fresh food </a></li>
+          </ul>
+        </ul>
+        <li class="nav-list"><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="dropdown-menu">
+        <ul class="dropdown-lists">
+          <li class="dropdown-list active"><a href="#main">Home</a></li>
+          <li class="dropdown-list"><a href="#about">About</a></li>
+          <li class="dropdown-list"><a href="#menu">Menu</a></li>
+          <li class="dropdown-list"><a href="#chefs">Chefs</a></li>
+          <li class="dropdown-list drop-li">
+            <a href="#features" class="sub-btn"
+              >Features <i class="fas fa-chevron-down"></i
+            ></a>
+            <ul class="inside-menu">
+              <li><a href="#features">Online pay </a></li>
+              <li><a href="#features">Delivery </a></li>
+              <li><a href="#features">Fresh food </a></li>
+            </ul>
+          </li>
+          <li class="dropdown-list"><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <button class="hamburger">
+        <svg
+          fill="#FFF"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 30 30"
+          width="30px"
+          height="30px"
+        >
+          <path
+            d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"
+          />
+        </svg>
+      </button>
+    </nav>
+    <section class="main" id="main">
+      <div class="main-wrapper">
+        <div class="left">
+          <div class="main-text">
+            <h1 class="main-title">KlassyCafe</h1>
+            <h5 class="main-subtitle">the best experience</h5>
+            <a class="left-btn" href="#">Make A Reservation</a>
+          </div>
+        </div>
+        <div class="right slider">
+          <button class="left-btn" onclick="indexs(-1)">
+            <i class="fas fa-angle-left"></i>
+          </button>
+          <button class="right-btn" onclick="indexs(1)">
+            <i class="fas fa-angle-right"></i>
+          </button>
+          <div class="slides">
+            <div class="slide slide-1"></div>
+            <div class="slide slide-2"></div>
+            <div class="slide slide-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-wrapper">
+        <div class="about-left">
+          <div class="title-for-all">
+            <span></span>
+            <h1>about us</h1>
+          </div>
+          <h1 class="about-title">We Leave A Delicious Memory For You</h1>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet
+            <span>consectetur adipisicing elit.</span> Accusantium vero
+            reprehenderit numquam neque eos quibusdam non impedit voluptate quis
+            et, ratione rerum ex quidem, debitis sequi nemo doloribus. Culpa,
+            non! ratione rerum ex quidem, debitis sequi nemo doloribus. Culpa,
+            non!
+          </p>
+          <p class="about-text2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
+            laborum repellat deserunt earum voluptates magni?
+          </p>
+          <div class="food-box">
+            <div class="food">
+              <img src="/img/Daco_1495622 (1).png" alt="" />
+            </div>
+            <div class="food">
+              <img src="/img/Daco_1495622.png" alt="" />
+            </div>
+            <div class="food">
+              <img src="/img/Daco_5876751.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <video width="450" height="430" controls>
+            <source
+              src="/img/How to Cook Perfect Beef Stir Fry Every Time.mp4"
+              type="video/mp4"
+            />
+            <source src="movie.ogg" type="video/ogg" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <div class="section-info">
+        <div class="title-for-all">
+          <span></span>
+          <h1>our menu</h1>
+        </div>
+        <h1 class="menu-title">Our selection of cakes with quality taste</h1>
+      </div>
+      <div class="card-container">
+        <div class="carousel owl-carousel">
+          <div class="card c1">
+            <div class="prise">$8.50</div>
+            <div class="info">
+              <h1 class="title">Klassy cub cake</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Provident, laudantium.
+              </p>
+              <a href="#" class="makeRes"
+                >Make Reservation <i class="fas fa-chevron-down"></i
+              ></a>
+            </div>
+            <img src="/img/cake/annie-spratt-6SHd7Q-l1UQ-unsplash.jpg" alt="" />
+          </div>
+          <div class="card c2">
+            <div class="prise">$7.20</div>
+            <div class="info">
+              <h1 class="title">Klassy cub cake</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Provident, laudantium.
+              </p>
+              <a href="#" class="makeRes"
+                >Make Reservation <i class="fas fa-chevron-down"></i
+              ></a>
+            </div>
+            <img
+              src="/img/cake/antevasin-nguyen-l4qImHQIg2Q-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="card c3">
+            <div class="prise">$3.95</div>
+            <div class="info">
+              <h1 class="title">Klassy cub cake</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Provident, laudantium.
+              </p>
+              <a href="#" class="makeRes"
+                >Make Reservation <i class="fas fa-chevron-down"></i
+              ></a>
+            </div>
+            <img src="/img/cake/ben-wicks--UgrmeAC06E-unsplash.jpg" alt="" />
+          </div>
+          <div class="card c4">
+            <div class="prise">$10</div>
+            <div class="info">
+              <h1 class="title">Klassy cub cake</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Provident, laudantium.
+              </p>
+              <a href="#" class="makeRes"
+                >Make Reservation <i class="fas fa-chevron-down"></i
+              ></a>
+            </div>
+            <img src="/img/cake/brooke-lark-of0pMsWApZE-unsplash.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="chiefs" id="chefs">
+      <div class="title-for-all">
+        <span></span>
+        <h1>our chefs</h1>
+      </div>
+      <div class="chief-title">We offer the best ingridients for you</div>
+      <div class="chief-card-container">
+        <div class="chief-card">
+          <div class="img-sec">
+            <img src="/img/cook1.jpg" alt="" />
+          </div>
+          <div class="chiefs-card-info">
+            <h1 class="chief-name">Randy Walker</h1>
+            <p>Pastry Chef</p>
+          </div>
+        </div>
+        <div class="chief-card">
+          <div class="img-sec">
+            <img src="/img/cook2.jpg" alt="" />
+          </div>
+          <div class="chiefs-card-info">
+            <h1 class="chief-name">David Martin</h1>
+            <p>Cookie Chef</p>
+          </div>
+        </div>
+        <div class="chief-card">
+          <div class="img-sec">
+            <img src="/img/cook3.jpg" alt="" />
+          </div>
+
+          <div class="chiefs-card-info">
+            <h1 class="chief-name">Peter Perkson</h1>
+            <p>Pancake Chef</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-wrapper">
+        <div class="left-contact">
+          <div class="title-for-all">
+            <span></span>
+            <h1>Contact us</h1>
+          </div>
+          <h1 class="contact-title">
+            Here You Can Make a Reservation or just walkin to our cafe
+          </h1>
+          <p class="contact-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            suscipit id esse, iure libero ut ratione perspiciatis possimus hic
+            et?
+          </p>
+          <div class="contact-number">
+            <div class="phone">
+              <div class="icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <h1 class="phone-title">Phone Numbers</h1>
+              <span>080-090-0990</span>
+              <span>080-090-0990</span>
+            </div>
+            <div class="sms">
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h1 class="sms-title">Emails</h1>
+              <span>jaoripovich@gmail.com</span>
+              <span>asiljabborov@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right-contact">
+          <h1 class="right-title">Table Reservation</h1>
+          <div class="right-input">
+            <div class="right-side">
+              <div class="input-box">
+                <input type="text" placeholder="Your Name*" />
+              </div>
+              <div class="input-box">
+                <input type="number" placeholder="Phone Number" />
+              </div>
+              <div class="input-box"> 
+                <input type="date" />
+              </div>
+            </div>
+            <div class="left-side">
+              <div class="input-box"> 
+                <input type="email" placeholder="Your Email Address*" />
+              </div>
+              <div class="input-box"> 
+                <input type="number" placeholder="Number Of Guests" />
+              </div>
+              <div class="input-box"> 
+                <input type="text" placeholder="Time" />
+              </div>
+            </div>
+          </div>
+          <textarea  rows="8" class="textaria" ></textarea>
+          <button class="contact-btn">Make A Reservation</button>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sub-btn").click(function () {
+          $(this).next(".inside-menu").slideToggle();
+        });
+      });
+    </script>
+  </body>
+</html>
